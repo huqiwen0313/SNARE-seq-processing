@@ -4,9 +4,9 @@
 library(Rsamtools)
 library(Rcpp)
 library(dplyr)
-sourceCpp("/home/qiwenhu/fcitr/ccount.ntags.barcode.cpp")
-dyn.load("/home/qiwenhu/fcitr/cdensum.so")
-dyn.load("/home/qiwenhu/fcitr/peaks.so")
+sourceCpp("../src/ccount.ntags.barcode.cpp")
+dyn.load("../src/cdensum.so")
+dyn.load("../src/peaks.so")
 
 # Function to read bam files and generate vectors of read positions and barcode informaiton
 read.bam.tags <- function(filename,read.tag.names=F,fix.chromosome.names=F) {
