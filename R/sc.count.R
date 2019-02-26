@@ -4,7 +4,7 @@
 # Output: peak regions and count matrix
 # Usage: Rscript sc.count.R bamfile
 
-source("../src/core.R")
+source("./core.R")
 library(dplyr)
 library(GenomicRanges)
 
