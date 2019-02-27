@@ -45,7 +45,7 @@ int main(int argc, char **argv){
   string r3_file = argv[3];
 
   // only select cells with reads more than a cutoff
-  int cell_cutoff = 8000;
+  int cell_cutoff = 3000;
   
   // count reads fall into each cell
   barcode_stats(r1_file);
