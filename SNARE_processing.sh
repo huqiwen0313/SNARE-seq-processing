@@ -1,6 +1,6 @@
 #!/bin/bash
 # fastq file processing steps modified from SNARE_Prep.sh, https://github.com/chensong611/SNARE_prep 
-# Usage: SNARE_Prep.sh -n $name -s $species -c $cells
+# Usage: SNARE_processing.sh -n $name -s $species
 
 dropseq_dir="/home/qiwenhu/software/Drop-seq_tools-1.13"
 picard_dir="/home/qiwenhu/software/Drop-seq-1.13/lib"
