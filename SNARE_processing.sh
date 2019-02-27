@@ -16,7 +16,6 @@ bEnd=12
 uStart=$(($bEnd+1))
 uEnd=21
 
-
 while getopts ":n:s:c:" options; do
     case $options in
     	n ) name=$OPTARG;;
