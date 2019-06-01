@@ -4,7 +4,7 @@
 
 dropseq_dir="/home/qiwenhu/software/Drop-seq_tools-1.13"
 picard_dir="/home/qiwenhu/software/Drop-seq-1.13/lib"
-atac_dir="/home/qiwenhu/software/atac_dnase_pipelines"
+#atac_dir="/home/qiwenhu/software/atac_dnase_pipelines"
 ref_dir="/home/qiwenhu/ref_genome/mm10_bd/mm10"
 
 species='m'
